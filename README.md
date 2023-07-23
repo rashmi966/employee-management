@@ -25,8 +25,7 @@ Using *`ADD EMPLOYEE`* you can add a new employee with the field of `Employee Na
 ### UPDATE
 Using the *`UPDATE`* button you can update the current employee data.
 
-![updateemployee.png](https://i.postimg.cc/FHTqfk8D/updateemployee.png)
-
+![employeeupdate.png](https://i.postimg.cc/YShmTnjS/employeeupdate.png)
 ### DELETE
 Using *`DELETE`* button we can delete the employee data, while deleting browser gives an alert to confirm the deletation process.
 
