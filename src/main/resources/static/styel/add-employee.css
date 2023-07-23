@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  body{
+    background-color: rgb(246, 242, 246);
+  }
+  
+  header {
+    background-color: rgb(255, 255, 255);
+    color: rgb(51, 96, 255);
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(51, 96, 255);
+  }
+  
+  main {
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  main section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .view-btn {
+    background-color: rgb(51,96,255);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgb(5, 138, 190);
+  }
+  
+  .add-employee {
+    background-color: white;
+    width: 45%;
+    box-shadow: 0 0 10px rgb(5, 138, 190);
+    border-radius: 10px;
+    padding: 2rem;
+  }
+  
+  .input-field {
+    width: 350px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .input-textarea {
+    width: 350px;
+    height: 100px;
+    margin-bottom: 10px;
+  
+  }
+  
+  .td-submit {
+    display: flex;
+    justify-content: center;
+  
+  }
+  .submit-btn {
+    background-color: rgb(51,96,255);
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgb(5, 138, 190);
+    justify-content: center;
+  }
